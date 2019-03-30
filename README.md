@@ -1,22 +1,20 @@
-Day 2: Operators
-
+Day 3: Intro to Conditional Statements
 Objective:
-In this challenge, you'll work with arithmetic operators. Check out the Tutorial tab for learning materials and an
-instructional video!
+In this challenge, we're getting started with conditional statements. Check out the Tutorial tab for learning materials and an instructional video!
 
 Task:
+Given an integer,n, perform the following conditional actions:
+•	If n is odd, print Weird
+•	If n is even and in the inclusive range of 2 to 5, print Not Weird
+•	If n is even and in the inclusive range of 6 to 20, print Weird
+•	If n is even and greater than 20, print Not Weird
 
-Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax
-percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
-Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
+Complete the stub code provided in your editor to print whether or not is weird.
 Input Format:
+A single line containing a positive integer, n.
 
-There are 3 lines of numeric input:
-The first line has a double, mealCost (the cost of the meal before tax and tip).
-The second line has an integer, tipPercent (the percentage of mealCost being added as tip).
-The third line has an integer, taxPercent (the percentage of mealCost being added as tax).
+Constraints:
+1<=n<=100
 
 Output Format:
-
-Print the total meal cost, where totalCost is the rounded integer result of the entire bill (mealCost with added tax and
-tip).
+Print Weird if the number is weird; otherwise, print Not Weird .
